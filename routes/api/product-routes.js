@@ -87,7 +87,7 @@ router.put('/:id', (req, res) => {
       // get list of current tag_ids
       const productTagIds = productTags.map(({ tag_id }) => tag_id);
       // create filtered list of new tag_ids
-      
+
       if (req.body.tagIds) {
         // if tagIds aren't passed the code in the if statement breaks so it's necessary to check if tagIds is passed
         const newProductTags = await JSON.parse(req.body.tagIds)
