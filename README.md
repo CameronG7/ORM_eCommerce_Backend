@@ -36,7 +36,13 @@ To install the project simply clone the repo to a directory on your machine. Exa
 
 
 
-Once installed, create a file called ```.env``` in the projects main directory. In this file, create DB_NAME, DB_USER, and DB_PASSWORD and use the database name provided in the schema.sql file 
+Once installed, create a file called ```.env``` in the projects main directory. In this file, create 
+```
+DB_NAME='' 
+DB_USER='' 
+DB_PASSWORD=''
+``` 
+and use the database name provided in the schema.sql file 
 and your mySQL login info as the other two fields. Then use the schema.sql code and a SQL interface of your choice to create the database.  
 In the terminal run ```npm i```. This will install any dependancies needed. Then run  ```node seeds/``` to seed the default data to the database. Now run ```npm start``` and the app is ready to go!
 Open postman or insomnia to make api requests and see magic.
