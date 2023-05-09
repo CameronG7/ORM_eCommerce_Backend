@@ -5,6 +5,7 @@
 
 ![alt text](https://img.shields.io/badge/License-MIT-blue )
 
+
 In this project I have developed the code for a server-based app that allows the user with interact with an eCommerce database via PostMan or Insomnia.
 This was accomplished by using sql queries using that are generated using the Sequelize package.  
 This project was a good way to further develop my skills in the backend on my way to becoming a fullstack developer. 
@@ -42,7 +43,7 @@ Open postman or insomnia to make api requests and see magic.
 
 ## Credits
 
-This app was built using inquirer, mysql2, console.table, dotenv and figlet 
+This app was built using express, mysql2, sequelize, and dotenv
 
 ## License
 
